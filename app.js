@@ -18,24 +18,24 @@ function clickHandler(){
         var message="Yay! You made a profit of "+p+" i.e. "+profit+"%";
         output.style.display="block";
         output.style.color="green";
-        output.style.background="#BFDBFE";
+        output.style.background="rgba(132, 190, 230, 0.6)";
         output.innerText=message;
     }
     else if(current<price){
         var loss=(((price*quantity)-(current*quantity))*100)/(price*quantity);
         var l=(price*quantity)-(current*quantity);
-        var message="Oops! You had a loss of "+l+ "i.e. "+loss+"%";
+        var message="Oops! You had a loss of "+l+ " i.e. "+loss+"%";
         output.style.display="block";
         output.style.color="red";
-        output.style.background="#BFDBFE";
+        output.style.background="rgba(132, 190, 230, 0.6)";
         output.innerText=message;
 
     }
     else{
         output.style.display="block";
         output.style.color="white";
-        output.style.background="#6B7280";
-        output.innerText="No Loss! No Gain! "
+        output.style.background="rgba(132, 190, 230, 0.6)";
+        output.innerText="No Loss! No Profit! "
 
     }
 }
