@@ -4,6 +4,8 @@
 }
 body{
     text-align:center;
+    background-image:url("bg.svg");
+    background-repeat:no-repeat;
 }
 h1{
     font-size:3rem;
@@ -14,8 +16,9 @@ h1{
     text-align: center;
     min-height:80vh;
     max-width: 80%;
-    background-color: #1E3A8A;
+    background-color: rgba(75, 132, 170, 0.4);
 }
+
 label{
     
     display:block;
